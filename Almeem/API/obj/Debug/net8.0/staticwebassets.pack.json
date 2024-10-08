@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-04.jpg",
+      "PackagePath": "staticwebassets\\images\\product-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-05.jpg",
+      "PackagePath": "staticwebassets\\images\\product-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-06.jpg",
+      "PackagePath": "staticwebassets\\images\\product-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-07.jpg",
+      "PackagePath": "staticwebassets\\images\\product-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-08.jpg",
+      "PackagePath": "staticwebassets\\images\\product-08.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-09.jpg",
+      "PackagePath": "staticwebassets\\images\\product-09.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V3\\V3\\Almeem\\API\\wwwroot\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

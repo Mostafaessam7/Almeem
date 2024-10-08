@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<div class="container mt-6">
+    <h2 class="text-3xl font-bold underline">Welcome to {{title}}</h2>
+    <ul>
+        @for (product of products; track product.nameInEnglish){
+        <li>{{product.nameInEnglish}}</li>
+        <li><img src="{{product.imagesUrl[0]}}" alt=""></li>
+
+        }
+    </ul>
+</div>
+
+<h1 class="text-4xl font-bold underline ">welcome to {{title}}</h1>

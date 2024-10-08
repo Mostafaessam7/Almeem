@@ -1,0 +1,111 @@
+[
+  {
+    "nameInEnglish": "Denim skirt",
+    "nameInArabic": "جيب جينز",
+    "descriptionInEnglish": "جيب جينز فاتح / غامق / كلاسيك - بجيوب اماميه و خلفيه - طول 10 سم  جينز تقيل -بدون ليكرا\n",
+    "descriptionInArabic": "Maxi , 100 cm , pockets from front and back , available sky/dark / classic blue",
+    "price": 850,
+    "isActive": true,
+    "isNewArrival": true,
+    "imagesUrl": [
+      "https://example.com/images/silk_blouse1.jpg",
+      "https://example.com/images/silk_blouse2.jpg"
+    ],
+    "categoryName": "Skirts",
+    "productSizeColorDto": [
+      {
+        "size": "L",
+        "color": "Black",
+        "productName": "Denim skirt",
+        "stockQuantity": 5
+      },
+      {
+        "size": "M",
+        "color": "Blue",
+        "productName": "Denim skirt",
+        "stockQuantity": 4
+      }
+    ]
+  },
+  {
+    "Name": "Knitted Cardigan",
+    "Description": "Cozy knitted cardigan for a casual look.",
+    "Price": 39.99,
+    "TotalQuantity": 70,
+    "IsActive": true,
+    "IsNewArrival": false,
+    "ImagesUrl": [
+      "https://example.com/images/knitted_cardigan1.jpg",
+      "https://example.com/images/knitted_cardigan2.jpg"
+    ],
+    "CategoryId": 5,
+    "ProductSizeColors": [
+      {
+        "ProductId": 5,
+        "ProductSizeId": 3,
+        "ProductColorId": 1,
+        "StockQuantity": 30
+      },
+      {
+        "ProductId": 5,
+        "ProductSizeId": 4,
+        "ProductColorId": 4,
+        "StockQuantity": 40
+      }
+    ]
+  },
+  {
+    "Name": "Summer Dress",
+    "Description": "Lightweight summer dress with floral patterns.",
+    "Price": 59.99,
+    "TotalQuantity": 45,
+    "IsActive": true,
+    "IsNewArrival": true,
+    "ImagesUrl": [
+      "https://example.com/images/summer_dress1.jpg",
+      "https://example.com/images/summer_dress2.jpg"
+    ],
+    "CategoryId": 6,
+    "ProductSizeColors": [
+      {
+        "ProductId": 6,
+        "ProductSizeId": 5,
+        "ProductColorId": 6,
+        "StockQuantity": 20
+      },
+      {
+        "ProductId": 6,
+        "ProductSizeId": 1,
+        "ProductColorId": 5,
+        "StockQuantity": 25
+      }
+    ]
+  },
+  {
+    "Name": "Pleated Skirt",
+    "Description": "Stylish pleated skirt for a chic look.",
+    "Price": 34.99,
+    "TotalQuantity": 90,
+    "IsActive": true,
+    "IsNewArrival": false,
+    "ImagesUrl": [
+      "https://example.com/images/pleated_skirt1.jpg",
+      "https://example.com/images/pleated_skirt2.jpg"
+    ],
+    "CategoryId": 7,
+    "ProductSizeColors": [
+      {
+        "ProductId": 7,
+        "ProductSizeId": 2,
+        "ProductColorId": 6,
+        "StockQuantity": 40
+      },
+      {
+        "ProductId": 7,
+        "ProductSizeId": 3,
+        "ProductColorId": 7,
+        "StockQuantity": 50
+      }
+    ]
+  }
+]

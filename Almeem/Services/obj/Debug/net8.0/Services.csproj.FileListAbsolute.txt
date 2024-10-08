@@ -1,0 +1,51 @@
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Services.deps.json
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Services.dll
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Services.pdb
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Core.dll
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Infrastructure.dll
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Infrastructure.pdb
+D:\ITI\GraduationProject\Almeem\Services\bin\Debug\net8.0\Core.pdb
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.dll
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\Services.pdb
+D:\ITI\GraduationProject\Almeem\Services\obj\Debug\net8.0\ref\Services.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Services.deps.json
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Services.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Services.pdb
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Core.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Infrastructure.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Infrastructure.pdb
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\bin\Debug\net8.0\Core.pdb
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\refint\Services.dll
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\Services.pdb
+E:\Graduation ITI Project Almeem\V3\Almeem\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Services.deps.json
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Services.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Services.pdb
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Core.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Infrastructure.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Infrastructure.pdb
+D:\Graduation Project ITI\V3\V3\Almeem\Services\bin\Debug\net8.0\Core.pdb
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\Services.pdb
+D:\Graduation Project ITI\V3\V3\Almeem\Services\obj\Debug\net8.0\ref\Services.dll
