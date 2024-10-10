@@ -11,6 +11,7 @@ namespace Core.Context
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<ProductColor> ProductColors { get; set; }
         public DbSet<ProductSizeColor> ProductSizesColors { get; set; }
+        public DbSet<Sale> Sales { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

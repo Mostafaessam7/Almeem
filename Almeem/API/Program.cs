@@ -10,6 +10,7 @@ using Services.Services.ColorService.Dto;
 using Services.Services.ProductService;
 using Services.Services.ProductService.Dto;
 using Services.Services.ProductSizeColorService.Dto;
+using Services.Services.SaleService;
 using Services.Services.SizeService;
 using Services.Services.SizeService.Dto;
 
@@ -47,16 +48,21 @@ namespace API
                 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
                 builder.Services.AddScoped<IColorRepository, ColorRepository>();
                 builder.Services.AddScoped<ISizeRepository, SizeRepository>();
+                builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+
                 builder.Services.AddScoped<IProductService, ProductService>();
                 builder.Services.AddScoped<ICategoryService, CategoryService>();
                 builder.Services.AddScoped<ISizeService, SizeService>();
                 builder.Services.AddScoped<IColorService, ColorService>();
+                builder.Services.AddScoped<ISaleService, SaleService>();
+
                 builder.Services.AddAutoMapper(m => m.AddProfile(new ProductProfile()));
                 builder.Services.AddAutoMapper(m => m.AddProfile(new ProductSizeColorProfile())); 
                 builder.Services.AddAutoMapper(m => m.AddProfile(new CategoryProfile())); 
                 builder.Services.AddAutoMapper(m => m.AddProfile(new SizeProfile())); 
-                builder.Services.AddAutoMapper(m => m.AddProfile(new ColorProfile())); 
-            #endregion
+                builder.Services.AddAutoMapper(m => m.AddProfile(new ColorProfile()));
+                builder.Services.AddAutoMapper(m => m.AddProfile(new SaleProfile()));
+#endregion
 
             var app = builder.Build();
 

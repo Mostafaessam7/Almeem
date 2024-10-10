@@ -18,5 +18,6 @@ namespace Core.Entities
         public int CategoryId { get; set; }
         public required Category Category { get; set; }
         public required List<ProductSizeColor> ProductSizeColors { get; set; }
+        public Sale Sale { get; set; }
     }
 }

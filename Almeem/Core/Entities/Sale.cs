@@ -9,7 +9,8 @@
         public bool IsGlobal { get; set; }  // If true, applies to all products
 
         // Navigation properties for Many-to-Many relationships
-        public List<SaleProduct> SaleProducts { get; set; }
-        public List<SaleCategory> SaleCategories { get; set; }
+        // Change it one-to-many
+        public List<Product> Products { get; set; }
+        public List<Category> Categories { get; set; }
     }
 }
