@@ -9,7 +9,6 @@ export class ShopParams {
   // categoryId = 1;
 
   categories: number[] = [];
-
   isNewArrival = true;
   isActive = true;
 }

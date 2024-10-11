@@ -11,7 +11,7 @@ public class ProductSpecParams
         set => _pageSize = (value > MaxPageSize) ? MaxPageSize : value;
     }
     public int? CategoryId { get; set; }
-    public List<string>? CategoryNames { get; set; }
+    public List<string>? CategoryNames { get; set; } = [];
     public string? Sort { get; set; }
     public bool? IsNewArrival { get; set; }
     public bool? IsActive { get; set; }

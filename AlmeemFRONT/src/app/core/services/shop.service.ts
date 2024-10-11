@@ -8,7 +8,7 @@ import { category, Product } from '../../shared/models/product';
   providedIn: 'root',
 })
 export class ShopService {
-  baseUrl = 'https://localhost:44378/api/';
+  baseUrl = 'https://localhost:7051/api/';
 
   private http = inject(HttpClient); // same as injecting in the CTOR
   //best place to make Http req by angualr in this bit in LifeTime cycle
