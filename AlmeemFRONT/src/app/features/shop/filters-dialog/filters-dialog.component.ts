@@ -5,6 +5,7 @@ import { MatListOption, MatSelectionList } from '@angular/material/list';
 import { MatButton } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { category } from '../../../shared/models/product';
 
 @Component({
   selector: 'app-filters-dialog',
@@ -26,16 +27,13 @@ export class FiltersDialogComponent {
   data = inject(MAT_DIALOG_DATA);
 
   selectedNewArrival: boolean = this.data.selectedNewArrival;
-  selectedCategory: any = this.data.selectedCategory;
-  selectedColor: any = this.data.selectedColor;
-  selectedSize: any = this.data.selectedSize;
+  selectedCategory: string[] = this.data.selectedCategory;
 
   applyFilters() {
     this.dialogRef.close({
       selectedNewArrival: this.selectedNewArrival,
       selectedCategory: this.selectedCategory,
-      selectedColor: this.selectedColor,
-      selectedSize: this.selectedSize,
+
     });
   }
 }

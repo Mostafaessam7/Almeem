@@ -1,6 +1,5 @@
 @use '@angular/material' as mat;
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,8 +11,24 @@ $customTheme: mat.define-theme();
 .custom-theme {
     @include mat.all-component-themes($customTheme);
 
-    //override theme
-    .mdc-button,.mdc-raised-button,.mdc-stroked-button,.mdc-flat-button {
+    // override the button styles
+    .mdc-button, .mdc-raised-button, .mdc-stroked-button, .mdc-flat-button {
         @apply rounded-md
     }
+}
+
+.container {
+    @apply mx-auto max-w-screen-2xl
+}
+
+.text-primary {
+    color: #7d00fa;
+}
+
+button.match-input-height {
+    height: var(--mat-form-field-container-height) !important;
+}
+
+.mdc-notched-outline__notch {
+    border-right-style: none !important
 }

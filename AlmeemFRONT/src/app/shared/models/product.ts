@@ -1,12 +1,34 @@
+type ProductImage = {
+  url: string;
+  isMain: boolean;
+};
+
+type variants = {
+  size: string;
+  color: string;
+  quantityInStock: number;
+};
+
+export type category = {
+  id: number;
+  nameEn: string;
+  nameAr: string;
+};
+
 export type Product = {
-  nameInEnglish: string;
-  nameInArabic: string;
-  descriptionInEnglish: string;
-  descriptionInArabic: string;
+  id: number;
+
+  nameEn: string;
+  nameAr: string;
+  descriptionEn: string;
+  descriptionAr: string;
   price: number;
+  isNewArrival: boolean;
   isActive: boolean;
-  //   isNewArrival: boolean;
-  imagesUrl: string[];
-  //   categoryName: string;
-  //   productSizeColorDto: ProductSizeColorDto[];
+  createdAt: Date;
+  images: ProductImage[];
+  variants: variants[];
+  categoryId: number;
+  categoryNameEn: string;
+  categoryNameAr: string;
 };

@@ -12,8 +12,11 @@ import {
   MatSelectionList,
   MatSelectionListChange,
 } from '@angular/material/list';
-import { MatPaginator } from '@angular/material/paginator';
+import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { ShopParams } from '../../shared/models/shopParams';
+import { Product } from '../../shared/models/product';
+import { Pagination } from '../../shared/models/pagination';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-shop',
@@ -28,6 +31,7 @@ import { ShopParams } from '../../shared/models/shopParams';
     MatListOption,
     MatMenuTrigger,
     MatPaginator,
+    FormsModule,
   ],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.scss',
@@ -36,7 +40,7 @@ export class ShopComponent implements OnInit {
   private shopService = inject(ShopService);
   private dialogService = inject(MatDialog);
 
-  products: any[] = [];
+  products?: Pagination<Product>;
 
   sortOptions = [
     { name: 'Alphabetical', value: 'name' },
@@ -45,18 +49,15 @@ export class ShopComponent implements OnInit {
   ];
 
   shopParams = new ShopParams();
+  pageSizeOptions = [5, 10, 15, 20];
 
   ngOnInit(): void {
     this.initialiseShop();
-    this.shopService.getCategory();
-    this.shopService.getColor();
-    this.shopService.getSize();
   }
 
   initialiseShop() {
-    // this.shopService.getFilterByCategory();
-    // this.shopService.getNewArrival();
     this.getProducts();
+    this.shopService.getCategory();
   }
 
   getProducts() {
@@ -66,11 +67,22 @@ export class ShopComponent implements OnInit {
     });
   }
 
+  onSearchChange() {
+    this.shopParams.pageNumber = 1;
+    this.getProducts();
+  }
+
+  handlePageEvent(event: PageEvent) {
+    this.shopParams.pageNumber = event.pageIndex + 1;
+    this.shopParams.pageSize = event.pageSize;
+    this.getProducts();
+  }
+
   onSortChange(event: MatSelectionListChange) {
     const selectedOption = event.options[0];
     if (selectedOption) {
       this.shopParams.sort = selectedOption.value;
-      // console.log(this.selectedSort);
+      this.shopParams.pageNumber = 1;
       this.getProducts();
     }
   }
@@ -79,20 +91,46 @@ export class ShopComponent implements OnInit {
     const dialogRef = this.dialogService.open(FiltersDialogComponent, {
       minWidth: '500px',
       data: {
-        selectedNewArrival: this.shopParams.NewArrival,
-        selectedCategory: this.shopParams.Category,
+        selectedNewArrival: this.shopParams.isNewArrival,
+        selectedCategory: this.shopParams.categories,
+        // selectedCategory: this.shopParams.categories.map(
+        //   (category) => category.nameEn
+        // ),
       },
     });
     dialogRef.afterClosed().subscribe({
       next: (result) => {
         if (result) {
-          // console.log(result);
-          this.shopParams.NewArrival = result.selectedNewArrival;
-          this.shopParams.Category = result.selectedCategory;
-          //apply filters
+          this.shopParams.isNewArrival = result.selectedNewArrival;
+          this.shopParams.categories = result.selectedCategory;
+          this.shopParams.pageNumber = 1;
+          console.log(result.selectedCategory);
           this.getProducts();
         }
       },
     });
   }
 }
+
+// openFiltersDialog() {
+//   const dialogRef = this.dialogService.open(FiltersDialogComponent, {
+//     minWidth: '500px',
+//     data: {
+//       selectedNewArrival: this.shopParams.isNewArrival,
+//       selectedCategory: this.shopParams.categories.map(
+//         (category) => category.nameEn
+//       ),
+//     },
+//   });
+
+//   dialogRef.afterClosed().subscribe({
+//     next: (result) => {
+//       if (result) {
+//         this.shopParams.isNewArrival = result.selectedNewArrival;
+//         this.shopParams.categories = result.selectedCategory.map(name => ({ nameEn: name })); // Ensure this matches your expected structure
+//         this.shopParams.pageNumber = 1;
+//         this.getProducts(this.shopParams); // Call getProducts with updated params
+//       }
+//     },
+//   });
+// }
