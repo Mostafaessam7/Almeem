@@ -27,7 +27,9 @@
         class="flex items-center justify-between gap-4 border-t border-gray-200 pt-2"
       >
         <dt class="font-medium text-gray-500">Total</dt>
-        <dd class="font-medium text-gray-900">$210.00</dd>
+        <dd class="font-medium text-gray-900">
+          {{ cartService.totals()?.total | currency }}
+        </dd>
       </dl>
     </div>
 
