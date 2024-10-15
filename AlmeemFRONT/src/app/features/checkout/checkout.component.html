@@ -1,4 +1,34 @@
-<div class="mt-5">
-    <h1 class="text-2xl">Only authorized users should be able to see this !!</h1>
+<div class="flex mt-32 gap-6">
+  <div class="w-3/4">
+    <mat-stepper
+      (selectionChange)="onStepChange($event)"
+      #stepper
+      class="bg-white border border-gray-200 shadow-sm"
+    >
+      <mat-step label="Address">
+        <div id="address-element"></div>
+        <div class="flex justify-end mt-1">
+          <mat-checkbox
+            [checked]="saveAddress"
+            (change)="onSaveAddressCheckboxChange($event)"
+          >
+            Save as default address
+          </mat-checkbox>
+        </div>
 
+        <div class="flex justify-between mt-6">
+          <button routerLink="/shop" mat-stroked-button>
+            Continue Shopping
+          </button>
+          <button matStepperNext mat-flat-button>Next</button>
+        </div>
+      </mat-step>
+      <mat-step label="Shipping"> Delivery Form </mat-step>
+      <mat-step label="Payment"> Payment Form </mat-step>
+      <mat-step label="Confirmation"> Review Form </mat-step>
+    </mat-stepper>
+  </div>
+  <div class="w-1/4">
+    <app-order-summary></app-order-summary>
+  </div>
 </div>

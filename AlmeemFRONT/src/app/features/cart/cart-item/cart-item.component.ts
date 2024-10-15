@@ -1,6 +1,6 @@
 import { Component, inject, input } from '@angular/core';
 import { CartItem } from '../../../shared/models/cart';
-import { RouterLink } from '@angular/router';
+import {  RouterLink } from '@angular/router';
 import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { CurrencyPipe } from '@angular/common';

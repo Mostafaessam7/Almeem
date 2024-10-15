@@ -12,5 +12,8 @@ namespace Core.Entities
         public List<CartItem> Items { get; set; } = [];
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime LastUpdated { get; set; } = DateTime.UtcNow;
+        public int? DeliveryMethodId { get; set; }
+        public string? ClientSecret { get; set; }
+        public string? PaymentIntentId { get; set; }
     }
 }

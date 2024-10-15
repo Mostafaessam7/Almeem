@@ -18,6 +18,7 @@ public class StoreContext : IdentityDbContext<AppUser>
     public DbSet<ProductVariant> ProductVariants { get; set; }
 
     public DbSet<Address> Addresses { get; set; }
+    public DbSet<DeliveryMethod> DeliveryMethods { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
