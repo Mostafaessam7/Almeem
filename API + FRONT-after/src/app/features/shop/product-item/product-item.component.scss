@@ -1,0 +1,17 @@
+.product-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none; /* No borders */
+    background-color: transparent; /* Transparent background */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.08); /* Shrinks the card to 95% of its original size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .product-card img {
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+    object-fit: contain; /* or 'cover', depending on your preference */
+  }
+  

@@ -1,0 +1,39 @@
+.header-container {
+    padding-left: 20px; // Add space on the left
+    padding-right: 20px; // Add space on the right
+    margin-bottom: 0;
+  }
+  
+  header {
+    background-color: rgba(255, 255, 255, 0); // Start fully transparent
+    transition: background-color 0.3s ease; // Smooth transition for color change
+    z-index: 50; // Keep the header above other content
+  }
+  
+  header.scrolled {
+    background-color: rgb(
+      246,
+      240,
+      240
+    ); // Change to fully opaque white when scrolled
+  }
+  
+  .custom-badge .mat-badge-content {
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .custom-badge .mat-icon {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  a {
+    &.active {
+      color: rgb(125, 0, 250);
+    }
+  }
+  

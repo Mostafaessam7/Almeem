@@ -1,0 +1,31 @@
+.item-slick1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .shop-btn {
+    background-color: rgb(125, 0, 250);
+  }
+  .shop-btn:hover {
+    background-color: black;
+  }
+  
+  .relative {
+    margin-top: -100px; // Negative margin to pull it up into the header
+  }
+  
+  .collection-card {
+    background-color: rgb(241, 241, 240);
+  }
+  footer {
+    background-color: rgb(34, 34, 34);
+  }
+  
+  .categories {
+    cursor: pointer;
+  }
+  

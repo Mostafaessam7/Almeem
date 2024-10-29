@@ -1,0 +1,11 @@
+.product-card {
+  border-radius: 15px; /* Makes the corners rounded */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for raised effect */
+  overflow: hidden; /* Ensures content respects the rounded shape */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+
+  &:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-5px); /* Moves card slightly up on hover */
+  }
+}

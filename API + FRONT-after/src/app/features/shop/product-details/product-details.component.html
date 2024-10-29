@@ -1,0 +1,81 @@
+@if (product) {
+  <section class="py-8 details">
+    <div class="max-w-screen-2xl px-4 mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Left side: Images -->
+        <div class="max-w-xl mx-auto lg:justify-self-center">
+          <div class="lg:flex lg:items-start">
+            <!-- Main product image -->
+            <div class="max-w-xl overflow-hidden rounded-lg">
+              <img
+                class="w-full max-h-[80vh] object-contain rounded-lg shadow-lg"
+                [src]="selectedImageUrl"
+                alt="Product image"
+              />
+            </div>
+  
+            <!-- Thumbnail images -->
+            <div class="mt-2 w-full lg:ml-5 lg:flex-shrink-0 lg:w-32">
+              <div class="flex flex-row items-start lg:flex-col">
+                <button
+                  *ngFor="let image of product.images"
+                  type="button"
+                  class="flex-0 aspect-square mb-3 h-20 overflow-hidden rounded-lg border-2"
+                  [class.border-gray-900]="selectedImageUrl === image.url"
+                  (click)="changeImage(image.url)"
+                >
+                  <img
+                    class="h-full w-full object-cover"
+                    [src]="image.url"
+                    alt="Thumbnail image"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right side: Product details -->
+        <div>
+          <h1 class="text-2xl font-semibold text-gray-900">
+            {{ product.nameEn }}
+          </h1>
+          <p>You have {{ quantityInCart }} of this item in your cart</p>
+  
+          <div class="mt-4 flex items-center gap-4">
+            <p class="text-3xl font-extrabold text-gray-900">
+              {{ product.price | currency : "EGP" }}
+            </p>
+          </div>
+  
+          <!-- Quantity and Add to Cart section -->
+          <div class="flex gap-4 mt-6">
+            <button
+              [disabled]="quantity == quantityInCart"
+              (click)="updateCart()"
+              mat-flat-button
+              class="match-input-height btnAdd"
+            >
+              <mat-icon>shopping_cart</mat-icon>
+              {{ getButtonText() }}
+            </button>
+  
+            <mat-form-field appearance="outline" class="flex">
+              <mat-label>Quantity</mat-label>
+              <input matInput [(ngModel)]="quantity" type="number" />
+            </mat-form-field>
+          </div>
+  
+          <hr class="my-6" />
+  
+          <!-- Product description -->
+          <p class="text-gray-500">
+            {{ product.descriptionEn }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  }
+  
