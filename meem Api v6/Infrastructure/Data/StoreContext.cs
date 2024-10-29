@@ -28,5 +28,6 @@ public class StoreContext : IdentityDbContext<AppUser>
         modelBuilder.ApplyConfiguration(new ProductConfiguration());
         modelBuilder.ApplyConfiguration(new ProductImageConfiguration());
         modelBuilder.ApplyConfiguration(new ProductVariantConfiguration());
+        modelBuilder.ApplyConfiguration(new ProductVariantConfiguration());
     }
 }
