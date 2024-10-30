@@ -1,0 +1,136 @@
+﻿@model Pagination<Product>
+@{
+    ViewBag.Title = "Get Product";
+}
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div class="container">
+    <h2 class="text-center h2">All Products</h2>
+
+    <!-- Add Product Button -->
+    <div class="mb-3 text-start">
+        <a href="@Url.Action("CreateProduct", "Product")" class="btn btn-success">
+            <i class="fas fa-plus-circle"></i> Add Product
+        </a>
+    </div>
+
+    <!-- Products Table -->
+    <div class="table-responsive">
+        <table id="productsTable" class="display table table-striped table-bordered align-middle">
+            <thead class="table-dark">
+                <tr>
+                    @* <th>ID</th> *@
+                    <th>English Name</th>
+                    <th>Arabic Name</th>
+                    <th>Price</th>
+                    <th>Is Active</th>
+                    <th>Category</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Data.Any())
+                {
+                    @foreach (var product in Model.Data)
+                    {
+                        <tr>
+                            @* <td>@product.Id</td> *@
+                            <td>@product.NameEn</td>
+                            <td>@product.NameAr</td>
+                            <td>@product.Price.ToString("C")</td>
+                            <td>@(product.IsActive ? "Yes" : "No")</td>
+                            <td>@product.CategoryNameEn</td>
+                            <td class="text-center">
+                                <a href="@Url.Action("GetProduct", "Product", new { id = product.Id })" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-eye"></i> View
+                                </a>
+                                <a href="@Url.Action("UpdateProduct", "Product", new { id = product.Id })" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i> Edit
+                                </a>
+                                <button class="btn btn-danger btn-sm" data-product-id="@product.Id" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                    <i class="fas fa-trash-alt"></i> Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Delete Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">Are you sure you want to delete this product?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="confirmDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#productsTable').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "lengthMenu": [10, 15, 25, 50],
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            let productId;
+
+            document.querySelectorAll('button[data-bs-target="#deleteModal"]').forEach(button => {
+                button.addEventListener('click', function () {
+                    productId = this.getAttribute('data-product-id');
+                });
+            });
+
+            document.getElementById('confirmDelete').addEventListener('click', function () {
+                if (productId) {
+                    fetch(`https://localhost:7051/api/Products/${productId}`, {
+                        method: 'DELETE',
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                alert('Product deleted successfully.');
+                                location.reload();
+                            } else {
+                                alert('Failed to delete the product.');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error deleting the product:', error);
+                        });
+
+                    const modalElement = document.querySelector('#deleteModal');
+                    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+                    modalInstance.hide();
+                }
+            });
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+}

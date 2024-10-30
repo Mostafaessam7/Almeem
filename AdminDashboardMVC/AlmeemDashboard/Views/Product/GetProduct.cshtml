@@ -1,0 +1,147 @@
+﻿@model Product
+
+<div class="container product-details">
+    <h2 class="text-center h2 ">Product Details</h2>
+
+    <div class="row mt-4">
+        <!-- Product Info Section -->
+        <div class="col-md-6">
+            <div class="product-info card shadow-sm p-4 mb-4 bg-white">
+                <h3 class="card-title h2">@Model.NameEn <small>(@Model.NameAr)</small></h3>
+                <p><strong>Description (EN):</strong> @Model.DescriptionEn</p>
+                <p><strong>Description (AR):</strong> @Model.DescriptionAr</p>
+                <p><strong>Price:</strong> <span class="badge bg-success">$@Model.Price</span></p>
+                <p><strong>Category:</strong> @Model.CategoryNameEn (@Model.CategoryNameAr)</p>
+                <p>
+                    <strong>New Arrival:</strong>
+                    <span class="badge @(Model.IsNewArrival ? "bg-primary" : "bg-secondary")">
+                        @(Model.IsNewArrival ? "Yes" : "No")
+                    </span>
+                </p>
+                <p>
+                    <strong>Active:</strong>
+                    <span class="badge @(Model.IsActive ? "bg-success" : "bg-danger")">
+                        @(Model.IsActive ? "Active" : "Inactive")
+                    </span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Product Images Section -->
+        <div class="col-md-6">
+            <div class="product-images card shadow-sm p-4 mb-4 bg-white">
+                @* <h4 class="card-title">Product Images</h4> *@
+                <div class="row">
+                    @if (Model.Images != null && Model.Images.Count > 0)
+                    {
+                        @for (int i = 0; i < Model.Images.Count; i++)
+                        {
+                            <div class="col-6 text-center">
+                                <img src="@Model.Images[i].Url"
+                                     alt="@Model.NameEn image"
+                                     class="img-fluid mb-3 border rounded product-image"
+                                     style="max-width: 200px;"
+                                     data-bs-toggle="modal"
+                                     data-bs-target="#imageModal"
+                                     data-url="@Model.Images[i].Url" />
+                                @if (@Model.Images[i].IsMain)
+                                {
+                                    <p><strong>Main Image</strong></p>
+                                }
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-center">No images available for this product.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Variants Section -->
+    <div class="product-variants card shadow-sm p-4 mb-4 bg-white">
+        @* <h4 class="card-title">Variants</h4> *@
+        @if (Model.Variants != null && Model.Variants.Count > 0)
+        {
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Size</th>
+                        <th>Color</th>
+                        <th>Quantity in Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Variants.Count; i++)
+                    {
+                        var variant = Model.Variants[i];
+                        <tr>
+                            <td>@variant.Size</td>
+                            <td>@variant.Color</td>
+                            <td>@variant.QuantityInStock</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No variants available for this product.</p>
+        }
+    </div>
+
+    <!-- Back and Update Buttons -->
+    <div class="text-center mt-4">
+        <!-- Update Product Button -->
+        <a href="@Url.Action("UpdateProduct", "Product", new { id = @Model.Id })" class="btn btn-primary">
+            <i class="fas fa-edit"></i> Update Product
+        </a>
+        <a href="@Url.Action("GetProducts", "Product")" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left"></i> Back to Products
+        </a>
+    </div>
+</div>
+
+<!-- Styling -->
+<style>
+    .product-info, .product-images, .product-variants {
+        border-radius: 10px;
+    }
+
+    .badge {
+        font-size: 1rem;
+    }
+
+    #modalImage {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<!-- Modal for Image -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Product Image</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="modalImage" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script to handle modal and console log -->
+<script>
+    document.querySelector('.product-images').addEventListener('click', function (event) {
+        if (event.target.tagName === 'IMG') {
+            const imageUrl = event.target.getAttribute('data-url');
+            console.log("Image URL:", imageUrl);
+            document.getElementById('modalImage').src = imageUrl;
+        }
+    });
+</script>

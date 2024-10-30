@@ -1,0 +1,1461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AlmeemDashboard.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AlmeemDashboard.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\favicon\\rvcsccko7uxqsjhpkjya01lgcr09.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon\\rvcsccko7uxqsjhpkjya01lgcr09.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\219233cb-d280-4f8a-9e31-99cd75bb0f72.jpg",
+      "PackagePath": "staticwebassets\\images\\219233cb-d280-4f8a-9e31-99cd75bb0f72.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\about-01.jpg",
+      "PackagePath": "staticwebassets\\images\\about-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\about-02.jpg",
+      "PackagePath": "staticwebassets\\images\\about-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-06.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-07.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\banner-08.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-08.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\f5b77f95-0bfe-4599-97ea-5729336d3f83.jpg",
+      "PackagePath": "staticwebassets\\images\\f5b77f95-0bfe-4599-97ea-5729336d3f83.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\gallery-09.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-09.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\item-cart-04.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-05.jpg",
+      "PackagePath": "staticwebassets\\images\\product-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-06.jpg",
+      "PackagePath": "staticwebassets\\images\\product-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-07.jpg",
+      "PackagePath": "staticwebassets\\images\\product-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-14.jpg",
+      "PackagePath": "staticwebassets\\images\\product-14.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-15.jpg",
+      "PackagePath": "staticwebassets\\images\\product-15.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\product-16.jpg",
+      "PackagePath": "staticwebassets\\images\\product-16.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\images\\thumb-01.jpg",
+      "PackagePath": "staticwebassets\\images\\thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\about-01.jpg",
+      "PackagePath": "staticwebassets\\img\\about-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\about-02.jpg",
+      "PackagePath": "staticwebassets\\img\\about-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-06.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-07.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-08.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-08.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\banner-09.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-09.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\create.txt",
+      "PackagePath": "staticwebassets\\img\\create.txt"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-02.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-03.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-04.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-05.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-07.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-08.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-08.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\gallery-09.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery-09.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\favicon.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-close.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-close.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-close2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-close2.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-email.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-email.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-heart-01.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-heart-01.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-heart-02.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-heart-02.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-next.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-next.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-pay-01.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-pay-01.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-pay-02.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-pay-02.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-pay-03.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-pay-03.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-pay-04.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-pay-04.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-pay-05.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-pay-05.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\icon-prev.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-prev.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\logo-01.png",
+      "PackagePath": "staticwebassets\\img\\icons\\logo-01.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\logo-02.png",
+      "PackagePath": "staticwebassets\\img\\icons\\logo-02.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\icons\\pin.png",
+      "PackagePath": "staticwebassets\\img\\icons\\pin.png"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\item-cart-01.jpg",
+      "PackagePath": "staticwebassets\\img\\item-cart-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\item-cart-02.jpg",
+      "PackagePath": "staticwebassets\\img\\item-cart-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\item-cart-03.jpg",
+      "PackagePath": "staticwebassets\\img\\item-cart-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\item-cart-04.jpg",
+      "PackagePath": "staticwebassets\\img\\item-cart-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\item-cart-05.jpg",
+      "PackagePath": "staticwebassets\\img\\item-cart-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-01.jpg",
+      "PackagePath": "staticwebassets\\img\\product-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-02.jpg",
+      "PackagePath": "staticwebassets\\img\\product-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-03.jpg",
+      "PackagePath": "staticwebassets\\img\\product-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-04.jpg",
+      "PackagePath": "staticwebassets\\img\\product-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-05.jpg",
+      "PackagePath": "staticwebassets\\img\\product-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-06.jpg",
+      "PackagePath": "staticwebassets\\img\\product-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-07.jpg",
+      "PackagePath": "staticwebassets\\img\\product-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-08.jpg",
+      "PackagePath": "staticwebassets\\img\\product-08.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-09.jpg",
+      "PackagePath": "staticwebassets\\img\\product-09.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-10.jpg",
+      "PackagePath": "staticwebassets\\img\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-11.jpg",
+      "PackagePath": "staticwebassets\\img\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-12.jpg",
+      "PackagePath": "staticwebassets\\img\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-13.jpg",
+      "PackagePath": "staticwebassets\\img\\product-13.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-14.jpg",
+      "PackagePath": "staticwebassets\\img\\product-14.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-15.jpg",
+      "PackagePath": "staticwebassets\\img\\product-15.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-16.jpg",
+      "PackagePath": "staticwebassets\\img\\product-16.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-detail-01.jpg",
+      "PackagePath": "staticwebassets\\img\\product-detail-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-detail-02.jpg",
+      "PackagePath": "staticwebassets\\img\\product-detail-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-detail-03.jpg",
+      "PackagePath": "staticwebassets\\img\\product-detail-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-min-01.jpg",
+      "PackagePath": "staticwebassets\\img\\product-min-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-min-02.jpg",
+      "PackagePath": "staticwebassets\\img\\product-min-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\product-min-03.jpg",
+      "PackagePath": "staticwebassets\\img\\product-min-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-04.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-04.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-05.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-05.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-06.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-06.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\slide-07.jpg",
+      "PackagePath": "staticwebassets\\img\\slide-07.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\thumb-01.jpg",
+      "PackagePath": "staticwebassets\\img\\thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\thumb-02.jpg",
+      "PackagePath": "staticwebassets\\img\\thumb-02.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\thumb-03.jpg",
+      "PackagePath": "staticwebassets\\img\\thumb-03.jpg"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\img\\update.txt",
+      "PackagePath": "staticwebassets\\img\\update.txt"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\_colors.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\_components.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\scss\\core.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\tasks\\build.js"
+    },
+    {
+      "Id": "D:\\Graduation Project ITI\\V7 f\\AlmeemDashboard\\AlmeemDashboard\\wwwroot\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\tasks\\prod.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AlmeemDashboard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AlmeemDashboard.props",
+      "PackagePath": "build\\AlmeemDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AlmeemDashboard.props",
+      "PackagePath": "buildMultiTargeting\\AlmeemDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AlmeemDashboard.props",
+      "PackagePath": "buildTransitive\\AlmeemDashboard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

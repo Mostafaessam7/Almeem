@@ -1,0 +1,177 @@
+﻿@model Product
+@{
+    ViewBag.Title = "Update Product";
+}
+
+<div class="container">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="text-center mb-4 h2">Update Product</h2>
+            <form asp-action="UpdateProduct" method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Product Details -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="NameEn" class="form-label">Product Name (English)</label>
+                        <input asp-for="NameEn" class="form-control" />
+                        <span asp-validation-for="NameEn" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="NameAr" class="form-label">Product Name (Arabic)</label>
+                        <input asp-for="NameAr" class="form-control" />
+                        <span asp-validation-for="NameAr" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="DescriptionEn" class="form-label">Description (English)</label>
+                        <textarea asp-for="DescriptionEn" class="form-control" rows="3"></textarea>
+                        <span asp-validation-for="DescriptionEn" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="DescriptionAr" class="form-label">Description (Arabic)</label>
+                        <textarea asp-for="DescriptionAr" class="form-control" rows="3"></textarea>
+                        <span asp-validation-for="DescriptionAr" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Price" class="form-label">Price</label>
+                        <input asp-for="Price" class="form-control" type="number" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-3 form-check mb-3">
+                        <input asp-for="IsNewArrival" class="form-check-input" />
+                        <label asp-for="IsNewArrival" class="form-check-label">Is New Arrival</label>
+                    </div>
+
+                    <div class="col-md-3 form-check mb-3">
+                        <input asp-for="IsActive" class="form-check-input" />
+                        <label asp-for="IsActive" class="form-check-label">Is Active</label>
+                    </div>
+                </div>
+
+                <!-- Category Dropdown -->
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label">Category</label>
+                    <select asp-for="CategoryId" class="form-select">
+                        <option>Select Category</option>
+                        @foreach (var category in ViewBag.Categories)
+                        {
+                            <option value="@category.Id">@category.NameEn (@category.NameAr)</option>
+                        }
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <!-- Images Section -->
+                <div class="mb-4">
+                    <h4>Product Images</h4>
+                    <div id="imageUploadContainer">
+                        @for (int i = 0; i < Model.Images.Count; i++)
+                        {
+                            <div class="input-group mb-2">
+                                <input type="hidden" name="Images[@i].Id" value="@Model.Images[i]" />
+                                <input asp-for="@Model.Images[i].Url" class="form-control" readonly placeholder="Image URL" />
+                                <div class="input-group-text">
+                                    <input type="radio" name="MainImageIndex" value="@i" class="form-check-input" @(Model.Images[i].IsMain ? "checked" : "") />
+                                    <label class="form-check-label">Main</label>
+                                </div>
+                                <button type="button" class="btn btn-danger removeImageButton">Remove</button>
+                            </div>
+                        }
+                    </div>
+                    <button type="button" id="addImageButton" class="btn btn-secondary mt-2">+ Add Image</button>
+                </div>
+
+                <!-- Variants Section -->
+                <div class="mb-4">
+                    <h4>Product Variants</h4>
+                    <div id="variantContainer">
+                        @for (int i = 0; i < Model.Variants.Count; i++)
+                        {
+                            <div class="input-group mb-2 variantGroup">
+                                <input type="hidden" name="Variants[@i].Id" value="@Model.Variants[i]" />
+                                <input asp-for="@Model.Variants[i].Size" class="form-control" placeholder="Size" />
+                                <input asp-for="@Model.Variants[i].Color" class="form-control" placeholder="Color" />
+                                <input asp-for="@Model.Variants[i].QuantityInStock" class="form-control" placeholder="Stock Quantity" />
+                                <button type="button" class="btn btn-danger removeVariantButton">Remove</button>
+                            </div>
+                        }
+                    </div>
+                    <button type="button" id="addVariantButton" class="btn btn-secondary mt-2">+ Add Variant</button>
+                </div>
+
+                <!-- Form Buttons -->
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary px-5">Update Product</button>
+                    <a href="@Url.Action("GetProducts", "Product")" class="btn btn-outline-primary ms-2 px-5">
+                        <i class="fas fa-arrow-left"></i> Back to Products
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript for dynamic image and variant management
+
+    let imageCount = 1;
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Delegate image remove event
+        document.getElementById("imageUploadContainer").addEventListener("click", function (e) {
+            if (e.target && e.target.classList.contains("removeImageButton")) {
+                e.target.closest(".input-group").remove();
+            }
+        });
+
+        // Handle the Add Image button click
+        document.getElementById("addImageButton").addEventListener("click", function () {
+            const container = document.getElementById("imageUploadContainer");
+            const newImageGroup = document.createElement("div");
+            newImageGroup.classList.add("input-group", "mb-2");
+
+            newImageGroup.innerHTML = `
+                                                <input type="file" name="ImagesForm" class="form-control" />
+                                                <div class="input-group-text">
+                                                    <input type="radio" name="MainImageIndex" value="${imageCount}" class="form-check-input" />
+                                                    <label class="form-check-label">Main</label>
+                                                </div>
+                                                <button type="button" class="btn btn-danger removeImageButton">Remove</button>
+                                            `;
+            container.appendChild(newImageGroup);
+            imageCount++;
+        });
+
+        // Delegate variant remove event
+        document.getElementById("variantContainer").addEventListener("click", function (e) {
+            if (e.target && e.target.classList.contains("removeVariantButton")) {
+                e.target.closest(".variantGroup").remove();
+            }
+        });
+
+        // Handle the Add Variant button click
+        let variantCount = @Model.Variants.Count;
+        document.getElementById("addVariantButton").addEventListener("click", function () {
+            const container = document.getElementById("variantContainer");
+            const newVariantGroup = document.createElement("div");
+            newVariantGroup.classList.add("input-group", "mb-2", "variantGroup");
+
+            newVariantGroup.innerHTML = `
+                                                <input type="text" name="Variants[${variantCount}].Size" class="form-control" placeholder="Size" />
+                                                <input type="text" name="Variants[${variantCount}].Color" class="form-control" placeholder="Color" />
+                                                <input type="number" name="Variants[${variantCount}].QuantityInStock" class="form-control" placeholder="Stock Quantity" />
+                                                <button type="button" class="btn btn-danger removeVariantButton">Remove</button>
+                                            `;
+            container.appendChild(newVariantGroup);
+            variantCount++;
+        });
+    });
+
+</script>

@@ -1,0 +1,38 @@
+﻿@model OrderToReturnDto
+
+<div class="container mt-4">
+
+    <h2 class="text-center h2">Order Details - #@Model.Id</h2>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5>Order Information</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Order Date:</strong> @Model.OrderDate.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</p>
+                    <p><strong>Status:</strong> @Model.Status</p>
+                    <p><strong>Total:</strong> @Model.Total.ToString("C")</p>
+                </div>
+                <div class="col-md-6">
+                    <h6>Shipping Address</h6>
+                    <p>
+                        @Model.ShippingAddress.Name<br />
+                        @Model.ShippingAddress.Line1<br />
+                        @if (!string.IsNullOrEmpty(Model.ShippingAddress.Line2))
+                        {
+                            @Model.ShippingAddress.Line2
+
+                            <br />
+                        }
+                        @Model.ShippingAddress.City, @Model.ShippingAddress.State<br />
+                        @Model.ShippingAddress.PostalCode<br />
+                        @Model.ShippingAddress.Country
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

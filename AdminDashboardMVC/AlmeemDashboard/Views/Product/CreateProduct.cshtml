@@ -1,0 +1,167 @@
+﻿@model CreateProduct
+@{
+    ViewBag.Title = "Create Product";
+}
+
+<div class="container">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="text-center mb-4 h2">Create Product</h2>
+            <form asp-action="CreateProduct" asp-controller="Product" method="post" enctype="multipart/form-data">
+
+                <!-- Product Information Section -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="NameEn" class="form-label">Product Name (English)</label>
+                        <input asp-for="NameEn" class="form-control" placeholder="Enter product name in English" />
+                        <span asp-validation-for="NameEn" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="NameAr" class="form-label">Product Name (Arabic)</label>
+                        <input asp-for="NameAr" class="form-control" placeholder="Enter product name in Arabic" />
+                        <span asp-validation-for="NameAr" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Description Section -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="DescriptionEn" class="form-label">Description (English)</label>
+                        <textarea asp-for="DescriptionEn" class="form-control" placeholder="Enter product description in English" rows="3"></textarea>
+                        <span asp-validation-for="DescriptionEn" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="DescriptionAr" class="form-label">Description (Arabic)</label>
+                        <textarea asp-for="DescriptionAr" class="form-control" placeholder="Enter product description in Arabic" rows="3"></textarea>
+                        <span asp-validation-for="DescriptionAr" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Price and Category Section -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label asp-for="Price" class="form-label">Price</label>
+                        <input asp-for="Price" class="form-control" type="number" placeholder="Enter product price" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="CategoryId" class="form-label">Category</label>
+                        <select asp-for="CategoryId" class="form-select">
+                            <option>Select Category</option>
+                            @foreach (var category in ViewBag.Categories)
+                            {
+                                <option value="@category.Id">@category.NameEn (@category.NameAr)</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Toggle Section -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-check form-switch">
+                            <input asp-for="IsNewArrival" class="form-check-input" type="checkbox" />
+                            <label asp-for="IsNewArrival" class="form-check-label">Is New Arrival</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-check form-switch">
+                            <input asp-for="IsActive" class="form-check-input" type="checkbox" />
+                            <label asp-for="IsActive" class="form-check-label">Is Active</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Images Section -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4>Product Images</h4>
+                    </div>
+                    <div class="card-body" id="imageUploadContainer">
+                        <div class="input-group mb-2">
+                            <input type="file" name="ImagesForm" class="form-control" />
+                            <div class="input-group-text">
+                                <input type="radio" name="MainImageIndex" value="0" class="form-check-input" checked />
+                                <label class="form-check-label">Main</label>
+                            </div>
+                            <button type="button" class="btn btn-danger removeImageButton">Remove</button>
+                        </div>
+                    </div>
+                    <button type="button" id="addImageButton" class="btn btn-secondary mt-2">+ Add Image</button>
+                </div>
+
+                <!-- Variants Section -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4>Product Variants</h4>
+                    </div>
+                    <div class="card-body" id="variantContainer">
+                        <!-- Variants will be added dynamically here -->
+                    </div>
+                    <button type="button" id="addVariantButton" class="btn btn-secondary mt-2">+ Add Variant</button>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary px-5">Create Product</button>
+                    <a href="@Url.Action("GetProducts", "Product")" class="btn btn-outline-primary ms-2 px-5">Back to Products</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let imageCount = 1;
+        let variantCount = 0;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Image Upload Management
+            document.getElementById("imageUploadContainer").addEventListener("click", function (e) {
+                if (e.target && e.target.classList.contains("removeImageButton")) {
+                    e.target.closest(".input-group").remove();
+                }
+            });
+
+            document.getElementById("addImageButton").addEventListener("click", function () {
+                const container = document.getElementById("imageUploadContainer");
+                const newImageGroup = document.createElement("div");
+                newImageGroup.classList.add("input-group", "mb-2");
+
+                                                newImageGroup.innerHTML = `
+                    <input type="file" name="ImagesForm" class="form-control" />
+                            <div class="input-group-text">
+                            <input type="radio" name="MainImageIndex" value="${imageCount}" class="form-check-input" />
+                            <label class="form-check-label">Main</label>
+                            </div>
+                            <button type="button" class="btn btn-danger removeImageButton">Remove</button>
+                            `;
+                            container.appendChild(newImageGroup);
+                imageCount++;
+                    });
+
+                                            // Variant Management
+            document.getElementById("variantContainer").addEventListener("click", function (e) {
+                if (e.target && e.target.classList.contains("removeVariantButton")) {
+                    e.target.closest(".variantGroup").remove();
+                        }
+                    });
+                document.getElementById("addVariantButton").addEventListener("click", function () {
+                const container = document.getElementById("variantContainer");
+                const newVariantGroup = document.createElement("div");
+                newVariantGroup.classList.add("input-group", "mb-2", "variantGroup");
+
+                newVariantGroup.innerHTML = `
+                    <input type="text" name="Variants[${variantCount}].Size" class="form-control" placeholder="Size" />
+                            <input type="text" name="Variants[${variantCount}].Color" class="form-control" placeholder="Color" />
+                    <input type="number" name="Variants[${variantCount}].QuantityInStock" class="form-control" placeholder="Stock Quantity" />
+                            <button type="button" class="btn btn-danger removeVariantButton">Remove</button>
+                            `;
+                            container.appendChild(newVariantGroup);
+                            variantCount++;
+                            });
+                });
+    </script>
+}

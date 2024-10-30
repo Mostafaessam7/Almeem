@@ -1,0 +1,70 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = $"Order Details - #{Model.Id}";
+}
+
+<div class="container-fluid px-4">
+@*     <h1 class="mt-4">Order Details</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+        <li class="breadcrumb-item"><a href="@Url.Action("Getorders")">Orders</a></li>
+        <li class="breadcrumb-item active">Order #@Model.Id</li>
+    </ol> *@
+
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card mb-4">
+           @*      <div class="card-header">
+                    <i class="fas fa-info-circle me-1"></i>
+                    Order Information
+                </div> *@
+                <h2 class="text-center h2 mt-2">Orders Details</h2>
+
+                <div class="card-body">
+                    <div class="mb-3">
+                        <strong>Order Status:</strong>
+                        <span class="badge @(Model.Status switch {
+                            "Pending" => "bg-warning",
+                            "Completed" => "bg-success",
+                            "Refunded" => "bg-danger",
+                            _ => "bg-secondary"
+                        })">@Model.Status</span>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Order Date:</strong> @Model.OrderDate.ToString("g")
+                    </div>
+                    <div class="mb-3">
+                        <strong>Payment Intent ID:</strong> @Model.PaymentIntentId
+                    </div>
+                    <div class="mb-3">
+                        <strong>Customer Email:</strong> @Model.BuyerEmail
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-shipping-fast me-1"></i>
+                    Shipping Details
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <strong>Delivery Method:</strong> @Model.DeliveryMethod
+                    </div>
+                    <div class="mb-3">
+                        <strong>Shipping Price:</strong> @Model.ShippingPrice.ToString("C")
+                    </div>
+                    <div class="mb-3">
+                        <strong>Address:</strong><br />
+                        @Model.ShippingAddress.Name <br />
+                        @Model.ShippingAddress.Line1<br />
+                        @Model.ShippingAddress.City, @Model.ShippingAddress.State @Model.ShippingAddress.PostalCode
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
