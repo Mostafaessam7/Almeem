@@ -1,7 +1,7 @@
 # Almeem
 ### Build a proof of concept e-commerce store using Angular, .Net and Stripe for payment processing
 
-#### Here are some of the key concepts and features covered in this project:
+## Here are some of the key concepts and features covered in this project:
 
 - **Environment Setup**: Getting started with the developer environment.
 - **Multi-Project .NET Core Application**: Organize the application using the DotNet CLI.
