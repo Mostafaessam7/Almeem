@@ -1,7 +1,6 @@
 # Almeem Fashion - E-Commerce Store with ASP.NET Core and Angular
 
-## Project Overview
-
+### Welcome to the Almeem Fashion repository! 
 ### Almeem Fashion is a proof-of-concept e-commerce application that brings together key components of an online store. Built with a layered architecture, the project separates the client, server, and data access logic for clear organization and scalability. By following best practices in both ASP.NET Core and Angular, this project serves as an excellent reference for developers looking to create robust, scalable web applications.
 
 ## Key Components
